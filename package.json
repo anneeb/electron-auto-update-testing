@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-testing",
-  "version": "1.14.1",
+  "version": "2.0.0",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -8,13 +8,19 @@
   },
   "build": {
     "linux": {
-      "publish": ["github"]
+      "publish": [
+        "github"
+      ]
     },
     "mac": {
-      "publish": ["github"]
+      "publish": [
+        "github"
+      ]
     },
     "win": {
-      "publish": ["github"]
+      "publish": [
+        "github"
+      ]
     }
   },
   "publish": [
@@ -29,7 +35,7 @@
     "url": "git+https://github.com/anneeb/electron-auto-update-testing.git"
   },
   "devDependencies": {
-    "electron": "^7.1.1",
-    "electron-builder": "^21.2.0"
+    "electron": "4.0.8",
+    "electron-builder": "^20.38.5"
   }
 }
