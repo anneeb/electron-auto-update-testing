@@ -1,0 +1,15 @@
+{
+  "name": "electron-auto-update-testing",
+  "version": "1.14.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anneeb/electron-auto-update-testing.git"
+  },
+  "devDependencies": {
+    "electron": "^7.1.1"
+  }
+}
