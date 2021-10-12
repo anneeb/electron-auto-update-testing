@@ -35,7 +35,7 @@
     "url": "git+https://github.com/anneeb/electron-auto-update-testing.git"
   },
   "devDependencies": {
-    "electron": "4.0.8",
+    "electron": "11.5.0",
     "electron-builder": "^20.38.5"
   }
 }
